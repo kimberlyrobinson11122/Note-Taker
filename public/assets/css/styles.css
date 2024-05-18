@@ -31,9 +31,13 @@ body {
 }
 
 .note-title {
-  height: 50px;
+  height: 60px; /* Increase the height to provide more space for text */
   margin-top: 13px;
-  font-size: 3rem;
+  font-size: 2.5rem; /* Adjust font size as needed */
+  line-height: 1.2; /* Set line height for readability */
+  padding-bottom: 10px; /* Add padding to prevent bottom cutoff */
+  overflow: hidden; /* Hide overflow content */
+  word-wrap: break-word; /* Ensure long words break and wrap */
 }
 
 .note-title:read-only,
